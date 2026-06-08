@@ -13,6 +13,7 @@ use \Kazoo\HttpClient\Message\Response;
 use \Kazoo\Api\AbstractResource;
 use \Kazoo\Common\Exception\ReadOnlyException;
 
+#[\AllowDynamicProperties]
 abstract class AbstractEntity extends AbstractResource
 {
     /**
