@@ -4,6 +4,7 @@ namespace CallflowBuilder;
 
 use CallflowBuilder\Node\AbstractNode; 
 
+#[\AllowDynamicProperties]
 class Builder {
 
      /**
